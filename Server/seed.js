@@ -5,7 +5,7 @@ async function seed() {
 
   await Product.bulkCreate([
 
-    [
+    
   {
     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
     "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
@@ -165,8 +165,7 @@ async function seed() {
     "quantity": 145,
     "category": "women's clothing",
     "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter."
-  }
-]
+  },
 
 ]);
 
