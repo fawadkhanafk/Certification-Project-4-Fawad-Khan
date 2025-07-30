@@ -1,6 +1,6 @@
 import { createSlice,createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-require('dotenv').config();
+// require('dotenv').config();
 
 export const fetchProducts= createAsyncThunk('products/fetchProducts', async()=>{
      const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/products`
